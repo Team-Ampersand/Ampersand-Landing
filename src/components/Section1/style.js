@@ -15,9 +15,10 @@ export const Section1Container = styled.div`
     z-index: -1;
   }
 
-  svg {
+  div {
     position: absolute;
     bottom: 2.5rem;
+    cursor: pointer;
   }
 `;
 

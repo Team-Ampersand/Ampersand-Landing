@@ -2,7 +2,7 @@ import * as S from './style';
 
 export default function Section2() {
   return (
-    <S.Container>
+    <S.Container className="team-introduce">
       <S.Content>
         <S.Text>
           <h2>
