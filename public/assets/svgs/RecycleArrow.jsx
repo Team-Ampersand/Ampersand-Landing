@@ -1,8 +1,8 @@
 export default function RecycleArrow() {
   return (
     <svg
-      width="68"
-      height="62"
+      width="88"
+      height="88"
       viewBox="0 0 68 62"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
