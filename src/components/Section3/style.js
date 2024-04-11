@@ -8,7 +8,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 5rem;
 
   h2 {
     font-weight: 700;
@@ -21,37 +21,37 @@ export const Content = styled.div`
 export const List = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 52px;
+  gap: 3.25rem;
 `;
 
 export const Item = styled.div`
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 2rem;
 
   svg {
-    margin: 36px;
+    margin: 2.25rem;
   }
 `;
 
 export const ItemContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 
   h3 {
     font-weight: 700;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: underline;
     text-decoration-color: #4c59d6;
-    text-decoration-thickness: 10px;
-    text-underline-offset: -2px;
+    text-decoration-thickness: 0.625rem;
+    text-underline-offset: -0.125rem;
   }
 
   span {
     color: #a1a1a1;
-    line-height: 36px;
-    font-size: 18px;
+    line-height: 2.25rem;
+    font-size: 1.125rem;
   }
 `;
