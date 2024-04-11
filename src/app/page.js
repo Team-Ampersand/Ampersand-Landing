@@ -1,5 +1,7 @@
 'use client';
 
+import { Header } from '@/components';
+
 export default function Home() {
-  return <div>&mpersand</div>;
+  return <Header />;
 }
