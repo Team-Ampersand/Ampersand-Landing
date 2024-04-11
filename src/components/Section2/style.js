@@ -1,7 +1,10 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  padding: 12.5rem 20.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #090c2a;
 `;
 
@@ -9,6 +12,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20.5rem;
 `;
 
 export const Text = styled.div`
