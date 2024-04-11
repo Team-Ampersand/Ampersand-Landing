@@ -49,7 +49,7 @@ const MAJOR_LIST = [
 
 export default function Section5() {
   return (
-    <S.Container>
+    <S.Container className="team-member">
       <S.Title>
         함께 성장하는
         <br />

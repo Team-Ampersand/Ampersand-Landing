@@ -2,7 +2,7 @@ import * as S from './style';
 
 export default function Section4() {
   return (
-    <S.Container>
+    <S.Container className="core-value">
       <S.Content>
         <h2>
           Team &mpersand가

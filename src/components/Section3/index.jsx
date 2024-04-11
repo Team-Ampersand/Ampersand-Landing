@@ -3,7 +3,7 @@ import * as S from './style';
 
 export default function Section3() {
   return (
-    <S.Container>
+    <S.Container className="team-culture">
       <S.Content>
         <h2>
           Team &mpersand가
