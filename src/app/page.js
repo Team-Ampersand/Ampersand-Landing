@@ -1,7 +1,12 @@
 'use client';
 
-import { Header } from '@/components';
+import { Header, Section1 } from '@/components';
 
 export default function Home() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Section1 />
+    </>
+  );
 }
